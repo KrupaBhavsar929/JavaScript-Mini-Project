@@ -1,0 +1,97 @@
+*
+{
+    padding:0px;
+    margin:0px;
+
+}
+.main
+{
+    margin:auto; 
+    display: flex;
+    left:30em;
+    top:5em;
+    position:absolute;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+}
+.counter
+{
+   
+    position: relative;
+    height:5rem;
+    width:5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+
+}
+.calculate
+{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.calculate > div
+{
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    margin:8px;
+    border-radius:3px;
+    align-items:center;
+
+}
+ .minus
+{
+    background-color: aqua;
+    height:3rem;
+    width:3rem;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.plus
+{
+    background-color:aqua;
+    height:3rem;
+    width:3rem;
+    position:relative;
+    display: flex;
+
+}
+.minusSymbol
+{
+    font-weight: bolder;
+}
+.plusSymbol
+{
+    font-weight: bolder;
+}
+
+.calculate1
+{
+    margin-top:5px;
+  
+}
+.inputType
+{
+    border:1px solid black;
+    border-radius:2px;
+    width:5rem;
+    height:2rem;
+}
+.resetBtn
+{
+    background-color: aqua;
+    font-size: medium;
+    height:3rem;
+    width:5rem;
+    border-radius:4px;
+}

@@ -1,0 +1,50 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+.container
+{
+    
+    height:100vh;
+    width:100vw;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    position: absolute;
+    display:flex;
+    
+}
+.testmonial
+{
+    background-color: slateblue;
+    height:7rem;
+    width:30rem;
+    position:relative;
+    border-radius: 20px;
+    padding:70px 20px;  
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.profile
+{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.profile img{
+    position: relative;
+    border-radius: 50%;
+    position: absolute;
+    height: 6rem;
+    width:6rem;
+    top: -40px; left: 200px; 
+}
+h4
+{
+    margin:4px;
+    display:flex;
+    flex-direction:right;
+    color:white;
+    margin-top:30px;
+
+}
